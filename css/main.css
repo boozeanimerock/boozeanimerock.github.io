@@ -1,0 +1,364 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+  background-color: #000;
+  box-sizing: border-box;
+  color: #757575;
+}
+
+
+.a11y-text {
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+}
+
+
+.thumbnails-2-cols {
+  list-style: none;
+  margin: 0;
+}
+
+
+.thumbnails-2-cols li:nth-child(odd) {
+  margin: 0;
+}
+
+
+.thumbnail.round {
+  border-radius: 50%;
+}
+
+
+.thumbnails-4-cols {
+  list-style: none;
+  margin: 0;
+}
+
+
+.thumbnails-4-cols li:nth-child(5) {
+  margin: 0;
+}
+
+
+/* =============================================
+  Overrides for bootstrap CSS
+  ============================================*/
+
+.navbar-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+
+section.next-episode, section.about, section.bands, section.anime, section.games, section.drinks, section.partners {
+  margin-bottom: 50px;
+}
+
+
+section.next-episode li, section.about li, section.bands li, section.anime li, section.games li, section.drinks li, section.partners li {
+  margin-bottom: 10px;
+}
+
+
+section.next-episode .heading, section.about .heading, section.bands .heading, section.anime .heading, section.games .heading, section.drinks .heading, section.partners .heading {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+
+section.next-episode .sub-heading, section.about .sub-heading, section.bands .sub-heading, section.anime .sub-heading, section.games .sub-heading, section.drinks .sub-heading, section.partners .sub-heading {
+  text-align: center;
+}
+
+
+section.next-episode .col1, section.about .col1, section.bands .col1, section.anime .col1, section.games .col1, section.drinks .col1, section.partners .col1 {
+  margin: 0;
+}
+
+
+section.next-episode .event-details .icon, section.about .event-details .icon, section.bands .event-details .icon, section.anime .event-details .icon, section.games .event-details .icon, section.drinks .event-details .icon, section.partners .event-details .icon {
+  color: white;
+  font-size: 36px;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+  width: 36px;
+}
+
+/* =============================================
+  Common stylings
+  ============================================*/
+
+
+section.hero-unit {
+  padding-bottom: 0;
+}
+
+
+
+section.social-media {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+
+section.social-media .link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+
+section.social-media .icon {
+  color: #fff;
+  font-size: 40px;
+}
+
+
+section.social-media .icon.facebook:hover {
+  color: #3f51b5;
+}
+
+
+section.social-media .icon.twitter:hover {
+  color: #87ceeb;
+}
+
+
+section.social-media .icon.instagram:hover {
+  color: #9c27b0;
+}
+
+
+
+section.about .thumbnails-2-cols {
+  margin-top: 20px;
+}
+
+
+section.about .thumbnails-2-cols .thumbnail {
+  border: 0;
+}
+
+
+
+section.bands .band-list li {
+  text-align: center;
+}
+
+
+section.bands .band-list .band-name {
+  margin-bottom: 25px;
+}
+
+
+section.bands .thumbnail.round {
+  border: 0;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
+section.anime .frm-anime-survey {
+  margin-top: 25px;
+}
+
+
+section.anime .frm-anime-survey label > span {
+  min-height: 18px;
+}
+
+
+
+section.games .frm-games-survey {
+  margin-top: 25px;
+}
+
+
+section.games .frm-games-survey label > span {
+  min-height: 18px;
+}
+
+
+
+section.drinks .specials-list .list-item {
+  text-align: center;
+}
+
+
+section.drinks .specials-list .list-item .specials-photo {
+  width: 40%;
+}
+
+
+section.drinks .beer-list {
+  margin-left: 0;
+}
+
+
+section.drinks .beer-list .heading {
+  border: 0;
+  margin: 40px 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+section.drinks .draft-list,
+section.drinks .bottled-list {
+  margin: 0;
+  overflow: hidden;
+}
+
+
+section.drinks .draft-list .list-item,
+section.drinks .bottled-list .list-item {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+
+section.drinks .draft-list .list-item .draft-photo,
+section.drinks .draft-list .list-item .bottled-photo,
+section.drinks .bottled-list .list-item .draft-photo,
+section.drinks .bottled-list .list-item .bottled-photo {
+  width: 15vh;
+}
+
+
+
+section.partners .partner-list .list-item .partner-photo {
+  width: 25vh;
+}
+
+/* =============================================
+  Media queries
+  ============================================*/
+@media (min-width: 768px) and (max-width: 979px) {
+  
+  .navbar-fixed-left .container {
+    width: 104px;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .navbar-fixed-left {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 979px) {
+  
+  .navbar .nav > li .icon {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .navbar .nav > li .title {
+    display: inline-block;
+    font-size: 2.8vh;
+    margin: 0;
+  }
+  
+  section.hero-unit {
+    display: none;
+  }
+  
+  section.drinks .draft-list .list-item .draft-photo,
+  section.drinks .draft-list .list-item .bottled-photo,
+  section.drinks .bottled-list .list-item .draft-photo,
+  section.drinks .bottled-list .list-item .bottled-photo {
+    width: 12vh;
+  }
+}
+
+@media (min-width: 980px) {
+  
+  body {
+    padding: 0;
+  }
+  
+  .hero-unit {
+    background-color: #000;
+    display: block;
+  }
+  
+  
+  .container-navbar {
+    margin: 0;
+  }
+  
+  .container-navbar .navbar {
+    height: 100vh;
+    overflow: auto;
+    position: fixed;
+  }
+  
+  .container-navbar .navbar .nav {
+    margin: 0;
+  }
+  
+  .container-navbar .navbar .nav > li {
+    color: #fff;
+    float: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .container-navbar .navbar .nav > li.active {
+    background-color: #111;
+  }
+  
+  .container-navbar .navbar .nav > li > a {
+    color: #fff;
+    padding: 0;
+  }
+  
+  .container-navbar .navbar .nav > li .icon {
+    color: white;
+    font-size: 36px;
+  }
+  
+  .container-navbar .navbar .nav > li .title {
+    font-size: 12px;
+    line-height: 26px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  .navbar-fixed-left .container {
+    width: 170px;
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/settings.css",
+	"sources": [
+		"../sass/settings.sass"
+	],
+	"sourcesContent": [
+		"$font-type: \"Montserrat\", sans-serif;\n$social-media-icon-color: #fff;\n$navbar-item-color: #fff;\n$navbar-item-size: 12px;\n$section-heading-color: #fff;\n"
+	],
+	"mappings": "",
+	"names": []
+}

@@ -2,308 +2,408 @@
 <html>
 <title>BAR Con</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/main.css"/>
 
+<body>
 
-<body class="w3-black">
-
-<!-- Icon Bar (Sidenav - hidden on small screens) -->
-<nav class="w3-sidenav w3-center w3-small w3-hide-small">
-  <!-- Avatar image in top left corner -->
-  <img src="images/BarconLogo.jpg" style="width:100%">
-  <a class="w3-padding-large w3-black" href="#">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#nextepisode">
-    <i class="fa fa-calendar w3-xxlarge"></i>
-    <p>NEXT EPISODE</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#about">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#bands">
-    <i class="fa fa-headphones w3-xxlarge"></i>
-    <p>BANDS</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#anime">
-    <i class="fa fa-video-camera w3-xxlarge"></i>
-    <p>ANIME</p>
-  </a>
-    <a class="w3-padding-large w3-hover-black" href="#games">
-    <i class="fa fa-gamepad w3-xxlarge"></i>
-    <p>GAMES</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#drinks">
-    <i class="fa fa-glass w3-xxlarge"></i>
-    <p>DRINKS</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#partners">
-    <i class="fa fa-group w3-xxlarge"></i>
-    <p>PARTNERS</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <ul class="w3-navbar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <li class="w3-left" style="width:25% !important"><a href="#">HOME</a></li>
-    <li class="w3-left" style="width:25% !important"><a href="#nextepisode">EPISODE</a></li>
-    <li class="w3-left" style="width:25% !important"><a href="#about">ABOUT</a></li>    
-    <li class="w3-left" style="width:25% !important"><a href="#bands">BANDS</a></li>
-    <li class="w3-left" style="width:25% !important"><a href="#anime">ANIME</a></li>
-    <li class="w3-left" style="width:25% !important"><a href="#games">GAMES</a></li>
-    <li class="w3-left" style="width:25% !important"><a href="#drinks">DRINKS</a></li>
-    <li class="w3-left" style="width:25% !important"><a href="#partners">PARTNERS</a></li>  
-  </ul>
-</div>
-
-
-
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black w3-hide-small" id="home">
-    <img src="images/BarconLogo.jpg" alt="boy" class="w3-image" width="900">
-  </header>
-
-  <div class="w3-content w3-right-align w3-jumbo">
-      <a href="https://www.facebook.com/boozeanimerock"><i class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
-      <a href="https://twitter.com/boozeanimerock"><i class="fa fa-twitter w3-hover-text-light-blue"></i></a>
-      <a href="https://www.instagram.com/boozeanimerock"><i class="fa fa-instagram w3-hover-text-purple"></i></a>
-  </div>
-
-
-  <!-- Next Episode -->
-  <div class="w3-row-padding w3-content w3-text-grey" id="nextepisode">
-    <h2 class="w3-text-light-grey">Next Episode</h2>
-    <hr style="width:240px" class="w3-opacity">
-    <div class="w3-row-padding">
-      <div class="w3-half">
-        <img src="images/flyers/flyer_episode_01.jpg" style="width:100%">        
-      </div>
-      <div class="w3-half">
-        <p><b>Episode 1</b><br>January 5, 8:00 PM<br><a href="http://bit.ly/2gbLPWc">Info</a> | <a href="http://barcon1.bpt.me/">Tickets</a></p>
-        <!-- <p>Episode 2: FEB 2, <a href="http://bit.ly/2gbIRRJ">Info</a> | Tickets</p>
-        <p>Episode 3: MAR 2, Info | Tickets</p>-->
-      </div>
-    </div>
-  </div>
-
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-section" id="about">
-    <h2 class="w3-text-light-grey">About</h2>
-    <hr style="width:240px" class="w3-opacity">
-
-    <div class="w3-row-padding">
-      <div class="w3-half">
-        <p class="">Convention season never has to end. BAR Con is the destination for anime, game, & J-rock fans to meet up between conventions!
-        The event will host tons of Japanese music, anime, and games with special events from time to time, including rock bands straight from Japan! This is a place to come and hang out with like-minded friends, grab a drink, and enjoy.</p>        
-      </div>
-      <div class="w3-half">
-        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="https://goo.gl/maps/hVgqjUc31N92">Back Bar, San Jose</a></p>
-        <p><i class="fa fa-calendar fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>1st Thursday of every month, 8:00pm - 11:00pm</p>
-        <p><i class="fa fa-money fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>$10</p> 
-        <p><i class="fa fa-facebook-square fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><a href="https://www.facebook.com/boozeanimerock/">www.facebook.com/boozeanimerock</a></p>  
-      </div>
-    </div>
-
-    <div class="w3-row-padding">
-      <div class="w3-half">
-        <img src="images/misc/PhoenixAsh.jpg" style="width:100%">
-        <img src="images/misc/AkaiSky.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="images/misc/Barcon_TVs_03.jpg" style="width:100%">
-        <img src="images/misc/Barcon_TVs_02.jpg" style="width:100%">        
-      </div>
-    </div>    
-  </div>
-  
-
-  <!-- The Bands -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="bands">
-    <h2 class="w3-text-light-grey">The Bands</h2>
-    <hr style="width:240px" class="w3-opacity">
-    <p>Each month the event will feature two bands for the rockin’ and one DJ for the Spinnin’!</p>
-
-    <div class="w3-row"><br>
-      <div class="w3-quarter w3-center">
-        <a href="http://www.phoenix-ash.com"><img src="images/bands/PhoenixAsh.jpg" alt="PhoenixAsh" style="width:80%" class="w3-circle w3-hover-opacity"></a>
-        <h3>Phoenix Ash</h3>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="http://www.ayakashi.band"><img src="images/bands/Ayakashi.png" alt="Ayakashi" style="width:80%" class="w3-circle w3-hover-opacity"></a>
-        <h3>Ayakashi</h3>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="http://www.akaisky.com"><img src="images/bands/AkaiSky.jpg" alt="AkaiSky" style="width:80%" class="w3-circle w3-hover-opacity"></a>
-        <h3>Akai Sky</h3>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="http://www.coastintheclouds.weebly.com"><img src="images/bands/CoastInTheClouds.jpg" alt="Rhedoric" style="width:80%" class="w3-circle w3-hover-opacity"></a>
-        <h3>Coast In The Clouds</h3>
-      </div>
-    </div>
-
-    <div class="w3-row"><br>
-      <div class="w3-quarter w3-center">
-        <a href="http://vestimitation.com/"><img src="images/bands/Rhedoric.jpg" alt="Rhedoric" style="width:80%" class="w3-circle w3-hover-opacity"></a>
-        <h3>Rhedoric</h3>
-      </div>
-
-    </div>
-  </div>
-
-
-  <!-- The Anime -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="anime">
-    <h2 class="w3-text-light-grey">The Anime</h2>
-    <hr style="width:240px" class="w3-opacity">
-
-    <div class="w3-row"><br>
-      <div class="w3-quarter w3-center">
-        <a href="http://www.crunchyroll.com/attack-on-titan"><img src="images/anime/AttackOnTitan.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="http://www.crunchyroll.com/library/Death_Note"><img src="images/anime/DeathNote.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="http://www.crunchyroll.com/puella-magi-madoka-magica"><img src="images/anime/PuellaMagiMadokaMagica.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="http://www.crunchyroll.com/sword-art-online"><img src="images/anime/SwordArtOnline.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-    </div>
-
-    <div class="w3-row">
-      <div class="w3-quarter w3-center">
-        <a href="http://www.crunchyroll.com/your-lie-in-april"><img src="images/anime/YourLieInApril.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-    </div>
-
-    <div class="w3-padding-32">
-      <script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/9586721.js"></script>
-      <noscript><a href="http://polldaddy.com/poll/9586721/">What anime do you want to see at BAR Con?</a></noscript>
-    </div>
-  </div>
-
-
-  <!-- The Games -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="games">
-    <h2 class="w3-text-light-grey">The Games</h2>
-    <hr style="width:240px" class="w3-opacity">
-
-    <div class="w3-row"><br>
-      <div class="w3-quarter w3-center">
-        <a href="https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Turtles_in_Time"><img src="images/games/TeenageMutantNinjaTurtles.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="https://en.wikipedia.org/wiki/Kirby_Super_Star"><img src="images/games/KirbySuperstar.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="https://en.wikipedia.org/wiki/Super_Bomberman_2"><img src="images/games/SuperBomberman2.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-      <div class="w3-quarter w3-center">
-        <a href="https://en.wikipedia.org/wiki/Contra_III:_The_Alien_Wars"><img src="images/games/ContraIII.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-    </div>
-
-    <div class="w3-row">
-      <div class="w3-quarter w3-center">
-        <a href="https://en.wikipedia.org/wiki/Super_Street_Fighter_II_Turbo"><img src="images/games/SuperStreetFighterIITurbo.jpg" style="width:100%" class="w3-hover-opacity"></a>
-      </div>
-
-    </div>
-
-    <div class="w3-padding-32">
-      <script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/9587358.js"></script>
-      <noscript><a href="http://polldaddy.com/poll/9587358/">What games do you want to see at BAR Con?</a></noscript>
-    </div>
-  </div>
-
-
-  <!-- The Drinks -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="drinks">
-    <h2 class="w3-text-light-grey">The Drinks</h2>
-    <hr style="width:240px" class="w3-opacity">
-    <!-- Drinks grid -->
-    <div class="w3-row-padding">
-
-      <!-- $5 specials -->
-      <div class="w3-center">
-        <h3>$5 Specials</h3>
-        <div class="w3-half w3-center">
-          <img src="images/booze/RedDrink.png" style="width:50%">
-          <p>Health Potion</p>
-        </div>
-        <div class="w3-half w3-center">
-          <img src="images/booze/BlueDrink.png" style="width:50%">
-          <p>Mana Potion</p>
+  <div class="container-navbar span2">
+    <div class="navbar navbar-inverse navbar-fixed-left">
+      <div class="navbar-inner">
+        <!-- NOTE: Not used, commented this out for now
+        <a class="brand" href="#">
+          <img class="logo" src="img/banner-barcon.jpg" alt="Barcon logo"/>
+        </a> -->
+        <!-- NOTE: "hamburger" button - appears only on smaller viewports -->
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="home active">
+              <a href="#">
+                <i class="icon fa fa-home"></i>
+                <h3 class="title">Home</h3>
+              </a>
+            </li>
+            <li class="next-episode">
+              <a href="#nextepisode">
+                <i class="icon fa fa-calendar"></i>
+                <h3 class="title">Next Episode</h3>
+              </a>
+            </li>
+            <li class="about">
+              <a href="#about">
+                <i class="icon fa fa-user"></i>
+                <h3 class="title">About</h3>
+              </a>
+            </li>
+            <li class="bands">
+              <a href="#bands">
+                <i class="icon fa fa-headphones"></i>
+                <h3 class="title">Bands</h3>
+              </a>
+            </li>
+            <li class="animes">
+              <a href="#animes">
+                <i class="icon fa fa-camera"></i>
+                <h3 class="title">Animes</h3>
+              </a>
+            </li>
+            <li class="games">
+              <a href="#games">
+                <i class="icon fa fa-gamepad"></i>
+                <h3 class="title">Games</h3>
+              </a>
+            </li>
+            <li class="drinks">
+              <a href="#drinks">
+                <i class="icon fa fa-glass"></i>
+                <h3 class="title">Drinks</h3>
+              </a>
+            </li>
+            <li class="partners">
+              <a href="#partners">
+                <i class="icon fa fa-group"></i>
+                <h3 class="title">Partners</h3>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!-- Beers -->
-      <div class="w3-center">
-        <div class="w3-half w3-padding-64">
-          <h3>Draft</h3>
-          <div class="w3-half">
-            <img src="images/booze/d_stella.png" style="width:60%">
-            <img src="images/booze/d_bluemoon.png" style="width:60%">
-            <img src="images/booze/d_firestone.png" style="width:60%">
+  <div class="container-main-content span10">
+    <div class="span10 container-fluid">
+      <div class="row-fluid">
+
+        <!-- Section: Hero banner -->
+        <section class="hero-unit">
+          <img class="banner-barcon" src="img/banner-barcon.jpg" alt="Barcon banner"/>
+        </section>
+
+        <!-- Section: Social media -->
+        <section class="social-media row-fluid">
+          <a class="link" href="https://www.facebook.com/boozeanimerock">
+            <i class="icon facebook fa fa-facebook-official">
+              <span class="a11y-text">Barcon Facebook page</span>
+            </i>
+          </a>
+          <a class="link" href="https://twitter.com/boozeanimerock">
+            <i class="icon twitter fa fa-twitter">
+              <span class="a11y-text">Barcon Twitter page</span>
+             </i>
+          </a>
+          <a class="link" href="https://www.instagram.com/boozeanimerock">
+            <i class="icon instagram fa fa-instagram">
+              <span class="a11y-text">Barcon Instagram page</span>
+            </i>
+          </a>
+        </section>
+
+        <!-- Section: Next Episode -->
+        <section id="nextepisode" class="next-episode row-fluid">
+          <h2 class="heading">Next Episode</h2>
+          <div class="span6 col1">
+            <img src="img/flyers/flyer_episode_01.jpg" alt="Barcon flyer"/>
           </div>
-          <div class="w3-half">
-            <img src="images/booze/d_pbr.png" style="width:60%">
-            <img src="images/booze/d_lagunitas.png" style="width:60%">
+          <div class="span6 col2">
+            <p>
+              <b>Episode 1</b><br>January 5, 8:00 PM<br><a href="http://bit.ly/2gbLPWc">Info</a> | <a href="http://barcon1.bpt.me/">Tickets</a>
+            </p>
+            <!-- <p>Episode 2: FEB 2, <a href="http://bit.ly/2gbIRRJ">Info</a> | Tickets</p>
+            <p>Episode 3: MAR 2, Info | Tickets</p>-->
           </div>
-        </div>
-        <div class="w3-half w3-padding-64">
-          <h3>Bottled</h3>
-          <div class="w3-half">
-            <img src="images/booze/b_heineken.png" style="width:60%">
-            <img src="images/booze/b_corona.png" style="width:60%">
-            <img src="images/booze/b_modelo.png" style="width:60%">
+        </section>
+
+        <!-- Section: About -->
+        <section id="about" class="about row-fluid">
+          <div class="row-fluid">
+            <h2 class="heading">About</h2>
+            <div class="span6 col1">
+              <p>Convention season never has to end. BAR Con is the destination for anime, game, &amp; J-rock fans to meet up between conventions! The event will host tons of Japanese music, anime, and games with special events from time to time, including rock bands straight from Japan! This is a place to come and hang out with like-minded friends, grab a drink, and enjoy.</p>
+            </div>
+            <div class="span6 col2">
+              <ul class="event-details list-unstyled">
+                <!-- Event location -->
+                <li>
+                  <i class="icon fa fa-map-marker">
+                    <span class="a11y-text">Event location</span>
+                  </i>
+                  <a href="https://goo.gl/maps/hVgqjUc31N92">Back Bar, San Jose</a>
+                </li>
+                <!-- Event date/time -->
+                <li>
+                  <i class="icon fa fa-calendar">
+                    <span class="a11y-text">Event date and time</span>
+                  </i>
+                  <span>1st Thursday of every month, 8:00pm - 11:00pm</span>
+                </li>
+                <!-- Event pricing -->
+                <li>
+                  <i class="icon fa fa-money">
+                    <span class="a11y-text">Event pricing</span>
+                  </i>
+                  <span>$10</span>
+                </li>
+                <!-- Facebook page -->
+                <li>
+                  <i class="icon fa fa-facebook-square">
+                    <span class="a11y-text">Facebook page</span>
+                  </i>
+                  <a href="https://www.facebook.com/boozeanimerock/">www.facebook.com/boozeanimerock</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="w3-half">
-            <img src="images/booze/b_bud.png" style="width:60%">
-            <img src="images/booze/b_budlight.png" style="width:60%">
-            <img src="images/booze/b_pbr.png" style="width:60%">
+          <div class="row-fluid">
+            <ul class="thumbnails-2-cols">
+              <li class="span6">
+                <img class="thumbnail" data-src="holder.js/360x270" src="img/misc/phoenix-ash.jpg" alt="Phoenix Ash"/>
+              </li>
+              <li class="span6">
+                <img class="thumbnail" data-src="holder.js/360x270" src="img/misc/barcon-interior.jpg" alt="Barcon interior"/>
+              </li>
+              <li class="span6">
+                <img class="thumbnail" data-src="holder.js/360x270" src="img/misc/akai-sky.jpg" alt="Akai Sky"/>
+              </li>
+              <li class="span6">
+                <img class="thumbnail" data-src="holder.js/360x270" src="img/misc/barcon-bar-area.jpg" alt="Barcon bar area"/>
+              </li>
+            </ul>
           </div>
-        </div>
+        </section>
+
+        <!-- Section: Bands -->
+        <section id="bands" class="bands row-fluid">
+          <h2 class="heading">The Bands</h2>
+          <p>Each month the event will feature two bands for the rockin’ and one DJ for the Spinnin’!</p>
+          <ul class="thumbnails-4-cols band-list">
+            <li class="span3">
+              <a href="http://www.phoenix-ash.com">
+                <img class="thumbnail round" src="img/bands/phoenix-ash.jpg" alt="Phoenix Ash">
+              </a>
+              <h4 class="band-name">Phoenix Ash</h4>
+            </li>
+            <li class="span3">
+              <a href="http://www.ayakashi.band">
+                <img class="thumbnail round" src="img/bands/ayakashi.png" alt="Ayakashi">
+              </a>
+              <h4 class="band-name">Ayakashi</h4>
+            </li>
+            <li class="span3">
+              <a href="http://www.akaisky.com">
+                <img class="thumbnail round" src="img/bands/akai-sky.jpg" alt="Akai Sky">
+              </a>
+              <h4 class="band-name">Akai Sky</h4>
+            </li>
+            <li class="span3">
+              <a href="http://www.coastintheclouds.weebly.com">
+                <img class="thumbnail round" src="img/bands/coast-in-the-clouds.jpg" alt="Coast In The Clouds">
+              </a>
+              <h4 class="band-name">Coast In The Clouds</h4>
+            </li>
+            <li class="span3">
+              <a href="http://vestimitation.com/">
+                <img class="thumbnail round" src="img/bands/rhedoric.jpg" alt="Rhedoric">
+              </a>
+              <h4 class="band-name">Rhedoric</h4>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Section: Animes -->
+        <section id="anime" class="anime">
+          <div class="row-fluid">
+            <h2 class="heading">The Anime</h2>
+            <ul class="thumbnails-4-cols anime-list">
+              <li class="span3">
+                <a href="http://www.crunchyroll.com/attack-on-titan">
+                  <img class="thumbnail" src="img/anime/attack-of-titan.jpg" alt="Attack of Titan">
+                </a>
+              </li>
+              <li class="span3">
+                <a href="http://www.crunchyroll.com/library/Death_Note">
+                  <img class="thumbnail" src="img/anime/death-note.jpg" alt="Death Note"/>
+                </a>
+              </li>
+              <li class="span3">
+                <a href="http://www.crunchyroll.com/puella-magi-madoka-magica">
+                  <img class="thumbnail" src="img/anime/madoka-magica.jpg" alt="Madoka Magica">
+                </a>
+              </li>
+              <li class="span3">
+                <a href="http://www.crunchyroll.com/sword-art-online">
+                  <img class="thumbnail" src="img/anime/sword-art-online.jpg" alt="Sword Art Online">
+                </a>
+              </li>
+              <li class="span3">
+                <a href="http://www.crunchyroll.com/your-lie-in-april">
+                  <img class="thumbnail" src="img/anime/your-lie-in-april.jpg" alt="Your Lie in April"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Anime survey form -->
+          <div class="frm-anime-survey row-fluid">
+            <div class="span7">            
+              <script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/9586721.js"></script>
+              <noscript><a href="http://polldaddy.com/poll/9586721/">What anime do you want to see at BAR Con?</a></noscript>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Games -->
+        <section id="games" class="games">
+          <div class="row-fluid">
+            <h2 class="heading">The Games</h2>
+            <ul class="thumbnails-4-cols game-list">
+              <li class="span3">
+                <a href="https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Turtles_in_Time">
+                  <img class="thumbnail" src="img/games/teenage-mutant-ninja-turtles.jpg" alt="Teenage Mutant Ninja Turtles"/>
+                </a>
+              </li>
+              <li class="span3">
+                <a href="https://en.wikipedia.org/wiki/Kirby_Super_Star">
+                  <img class="thumbnail" src="img/games/kirby-superstar.jpg" alt="Kirby Superstar"/>
+                </a>
+              </li>
+              <li class="span3">
+                <a href="https://en.wikipedia.org/wiki/Super_Bomberman_2">
+                  <img class="thumbnail" src="img/games/super-bomberman-2.jpg" alt="Super Bomberman 2">
+                </a>
+              </li>
+              <li class="span3">
+                <a href="https://en.wikipedia.org/wiki/Contra_III:_The_Alien_Wars">
+                  <img class="thumbnail" src="img/games/contra-III.jpg" alt="Contra III">
+                </a>
+              </li>
+              <li class="span3">
+                <a href="https://en.wikipedia.org/wiki/Super_Street_Fighter_II_Turbo">
+                  <img class="thumbnail" src="img/games/super-street-fighter-II-turbo.jpg" alt="Super Street Fighter II Turbo"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Games survey form -->
+          <div class="frm-games-survey row-fluid">
+            <div class="span7">            
+              <script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/9587358.js"></script>
+              <noscript><a href="http://polldaddy.com/poll/9587358/">What games do you want to see at BAR Con?</a></noscript>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Drinks -->
+        <section id="drinks" class="drinks">
+          <div class="row-fluid">
+            <h2 class="heading">The Drinks</h2>
+            <h4 class="sub-heading">$5 Specials</h4>
+            <ul class="specials-list list-unstyled">
+              <li class="list-item span6">
+                <img class="specials-photo" src="img/booze/health-potion.png" alt="Health Potion"/>
+                <h4 class="specials-name">Health Potion</h4>
+              </li>
+              <li class="list-item span6">
+                <img class="specials-photo" src="img/booze/mana-potion.png" alt="Mana Potion"/>
+                <h4 class="specials-name">Mana Potion</h4>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Beers -->
+          <div class="row-fluid">
+            <ul class="beer-list">            
+              <li class="draft span6">
+                <h4 class="heading">Draft</h4>
+                <ul class="draft-list list-unstyled">
+                  <li class="list-item ">
+                    <img class="draft-photo" src="img/booze/d-stella.png" alt="Stella Artois"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="draft-photo" src="img/booze/d-bluemoon.png" alt="Blue Moon"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="draft-photo" src="img/booze/d-firestone.png" alt="Firestone"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="draft-photo" src="img/booze/d-pbr.png" alt="Pabst Blue Ribbon"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="draft-photo" src="img/booze/d-lagunitas.png" alt="Lagunitas"/>
+                  </li>
+                </ul>
+              </li>
+              <li class="bottled span6">
+                <h4 class="heading">Bottled</h4>
+                <ul class="bottled-list list-unstyled">
+                  <li class="list-item ">
+                    <img class="bottled-photo" src="img/booze/b-heineken.png" alt="Heineken"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="bottled-photo" src="img/booze/b-corona.png" alt="Corona"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="bottled-photo" src="img/booze/b-modelo.png" alt="Modelo"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="bottled-photo" src="img/booze/b-bud.png" alt="Budweiser"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="bottled-photo" src="img/booze/b-budlight.png" alt="Bud Light"/>
+                  </li>
+                  <li class="list-item ">
+                    <img class="bottled-photo" src="img/booze/b-pbr.png" alt="Pabst Blue Ribbon"/>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section: Partners -->
+        <section id="partners" class="partners">
+          <div class="row-fluid">
+            <h2 class="heading">Partners</h2>
+            <ul class="partner-list list-unstyled">
+              <li class="list-item">
+                <a href="https://www.facebook.com/BackBarSoFa408">
+                  <img class="partner-photo" src="img/partners/logo-back-bar.jpg" alt="Back Bar Sofa"/>
+                </a>
+              </li>
+              <li class="list-item">
+                <a href="https://www.mercycorps.org">
+                  <img class="partner-photo" src="img/partners/logo-mercy-corps.png" alt="MercyCorps"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
       </div>
+    </div>
 
-    </div>    
-  </div>
- 
+    <hr>
 
-  <!-- Partners -->
-  <div class="w3-row-padding w3-content w3-text-grey" id="partners">
-    <h2 class="w3-text-light-grey">Partners</h2>
-    <hr style="width:240px" class="w3-opacity">
-    <a href="https://www.facebook.com/BackBarSoFa408"><img src="images/partners/BackBar.jpg" style="width:20%" class="w3-hover-opacity"></a><br>
-    <a href="https://www.mercycorps.org"><img src="images/partners/nt-mercy-corps-logo-red.png" style="width:20%" class="w3-hover-opacity"></a><br>
+    <footer>
+      <p>&copy; Barcon 2016</p>
+    </footer>
   </div>
 
-
-<!-- END PAGE CONTENT -->
-</div>
-
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
 

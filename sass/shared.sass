@@ -1,0 +1,51 @@
+@import settings
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	font-family: $font-type
+
+body
+	background-color: #000;
+	box-sizing: border-box;
+	color: #757575;
+
+.a11y-text
+	height: 1px;
+	left: -10000px;
+	overflow: hidden;
+	position: absolute;
+	top: auto;
+	width: 1px;
+
+.list-unstyled
+	list-style: none;
+	margin: 0;
+
+// To be used in ul/ol element
+.thumbnails-2-cols
+	list-style: none;
+	margin: 0;
+
+	li:nth-child(odd)
+		margin: 0;
+
+.thumbnail
+	&.round
+		border-radius: 50%;
+
+.thumbnails-4-cols
+	list-style: none;
+	margin: 0;
+
+	li:nth-child(5)
+		margin: 0;
+
+/* Mixins */
+=icon($color, $size)
+  color: $color;
+  font-size: $size;
