@@ -32,7 +32,7 @@ section
       text-align: center
 
     .col1
-      margin: 0;
+      margin: 0
 
     .event-details
       .icon
@@ -143,9 +143,9 @@ section
       overflow: hidden
 
       .list-item
-        float: left;
+        float: left
         text-align: center
-        width: 33%;
+        width: 33%
 
         .draft-photo,
         .bottled-photo
@@ -175,7 +175,13 @@ section
 
 // Tablets (horizontal)
 @media (max-width: 979px)
+  .container-main-content
+    margin-top: 40px
+
   .navbar
+    position: fixed
+    width: 100%
+
     .nav
       > li
         .icon
@@ -185,11 +191,11 @@ section
         .title
           display: inline-block
           font-size: 2.8vh
-          margin: 0;
+          margin: 0
 
   section
     &.hero-unit
-      display: none;
+      display: none
 
   section
     &.drinks
@@ -207,7 +213,7 @@ section
 
   .hero-unit
     background-color: #000
-    display: block;
+    display: block
 
   /* Navbar */
   .container-navbar
@@ -220,28 +226,28 @@ section
 
       .nav
         margin: 0
+        max-width: 110px
 
         > li
           color: $navbar-item-color
           float: none
-          margin-bottom: 15px
           padding: 15px
           text-align: center
 
           &.active
-            background-color: #111;
+            background-color: #111
 
           > a
             color: $navbar-item-color
             padding: 0
 
           .icon
-            +icon(white, 36px);
+            +icon(white, 36px)
 
           .title
             font-size: $navbar-item-size
-            line-height: 26px
-            margin: 0
+            line-height: 20px
+            margin: 10px 0 0 0
             text-transform: uppercase
 
 @media (min-width: 1200px)
