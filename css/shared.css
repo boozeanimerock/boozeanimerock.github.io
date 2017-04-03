@@ -1,4 +1,4 @@
-/* line 3, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 3, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 body,
 h1,
 h2,
@@ -9,14 +9,14 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 12, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 12, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 body {
   background-color: #000;
   box-sizing: border-box;
   color: #757575;
 }
 
-/* line 17, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 17, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .a11y-text {
   height: 1px;
   left: -10000px;
@@ -26,35 +26,35 @@ body {
   width: 1px;
 }
 
-/* line 25, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 25, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .list-unstyled {
   list-style: none;
   margin: 0;
 }
 
-/* line 30, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 30, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-2-cols {
   list-style: none;
   margin: 0;
 }
 
-/* line 34, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 34, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-2-cols li:nth-child(odd) {
   margin: 0;
 }
 
-/* line 38, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 38, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .thumbnail.round {
   border-radius: 50%;
 }
 
-/* line 41, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 41, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-4-cols {
   list-style: none;
   margin: 0;
 }
 
-/* line 45, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
+/* line 45, /Users/yuini/workspace/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-4-cols li:nth-child(5) {
   margin: 0;
 }
