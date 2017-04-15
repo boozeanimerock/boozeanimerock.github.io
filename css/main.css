@@ -210,7 +210,7 @@ section.drinks .specials-list .list-item {
 
 /* line 129, /Users/yuini/workspace/boozeanimerock.github.io/sass/main.sass */
 section.drinks .specials-list .list-item .specials-photo {
-  width: 40%;
+  width: 100%;
 }
 
 /* line 132, /Users/yuini/workspace/boozeanimerock.github.io/sass/main.sass */
@@ -362,10 +362,14 @@ section.charities .charity-list .list-item .charity-photo {
     margin: 10px 0 0 0;
     text-transform: uppercase;
   }
+  /* line 258, /Users/yuini/workspace/boozeanimerock.github.io/sass/main.sass */
+  section.drinks .specials-list .list-item .specials-photo {
+    width: 40%;
+  }
 }
 
 @media (min-width: 1200px) {
-  /* line 256, /Users/yuini/workspace/boozeanimerock.github.io/sass/main.sass */
+  /* line 263, /Users/yuini/workspace/boozeanimerock.github.io/sass/main.sass */
   .navbar-fixed-left .container {
     width: 170px;
   }
