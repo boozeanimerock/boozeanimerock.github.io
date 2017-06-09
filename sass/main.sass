@@ -12,7 +12,8 @@
 section
   &.next-episode,
   &.about,
-  &.bands,
+  &.music,
+  &.guests,
   &.anime,
   &.games,
   &.drinks,
@@ -84,14 +85,30 @@ section
       .thumbnail
         border: 0
 
-/* Section: Bands */
+/* Section: Music */
 section
-  &.bands
-    .band-list
+  &.music
+    .music-list
       li
         text-align: center
 
-      .band-name
+      .music-name
+        margin-bottom: 25px
+
+    .thumbnail
+      &.round
+        border: 0
+        margin: 0 auto
+        width: 80%
+
+/* Section: Guests */
+section
+  &.guests
+    .guests-list
+      li
+        text-align: center
+
+      .guests-name
         margin-bottom: 25px
 
     .thumbnail
@@ -252,7 +269,7 @@ section
             padding: 0
 
           .icon
-            +icon(white, 36px)
+            +icon(white, 30px)
 
           .title
             font-size: $navbar-item-size

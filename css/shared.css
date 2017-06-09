@@ -55,7 +55,7 @@ body {
 }
 
 /* line 45, Z:/Projects/Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
-.thumbnails-4-cols li:nth-child(5) {
+.thumbnails-4-cols li:nth-child(4n+1) {
   margin: 0;
 }
 
