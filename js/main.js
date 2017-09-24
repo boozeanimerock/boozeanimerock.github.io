@@ -33,6 +33,7 @@ function setNavBarMenu() {
  */
 function getAlbumPhotos() {
   var fbPhotoAlbumIds = [
+    926887857462926,  // BAR Con: Episode 9
     906658509485861,  // BAR Con: Episode 8
     869088153242897,  // BAR Con: Episode 6
     853717891446590,  // BAR Con: Episode 5
