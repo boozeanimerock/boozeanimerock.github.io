@@ -33,6 +33,7 @@ function setNavBarMenu() {
  */
 function getAlbumPhotos() {
   var fbPhotoAlbumIds = [
+    926887857462926,  // BAR Con: Episode 9
     906658509485861,  // BAR Con: Episode 8
     869088153242897,  // BAR Con: Episode 6
     853717891446590,  // BAR Con: Episode 5
@@ -43,7 +44,7 @@ function getAlbumPhotos() {
   ];
 
   fbPhotoAlbumIds.forEach(fbPhotoAlbumId => {
-    var fbAlbumApi = `https://graph.facebook.com/v2.9/${fbPhotoAlbumId}/photos?access_token=833367813443301%7CnDhKBT0o6K7a7j_5LMfc3QSbRNs&fields=album,created_time,id,images,link,name`;
+    var fbAlbumApi = `https://graph.facebook.com/v2.10/${fbPhotoAlbumId}/photos?access_token=833367813443301%7CnDhKBT0o6K7a7j_5LMfc3QSbRNs&fields=album,created_time,id,images,link,name`;
 
     $.ajax({
       url: fbAlbumApi,
@@ -51,6 +52,8 @@ function getAlbumPhotos() {
       async: false,
     }).done((response) => {
       generateGallery({ photoData: response.data });
+    }).fail((e) => {
+      console.log("error: ", e);
     });
   });
 }
@@ -73,7 +76,7 @@ function generateGallery(args = {}) {
     if (idx < 4) {        
       galleryListItemMarkup += `<li class="list-item span3">
                                   <a href="${item.link}" target="_blank">
-                                    <img class="photo" src="${item.images[4].source}" alt="${item.album.name}"/>
+                                    <img class="photo" src="${item.images[3].source}" alt="${item.album.name}"/>
                                   </a>
                                 </li>`;
     }
