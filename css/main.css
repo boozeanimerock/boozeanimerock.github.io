@@ -1,4 +1,4 @@
-/* line 3, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 3, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 body,
 h1,
 h2,
@@ -9,14 +9,14 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 12, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 12, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 body {
   background-color: #000;
   box-sizing: border-box;
   color: #757575;
 }
 
-/* line 17, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 17, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .a11y-text {
   height: 1px;
   left: -10000px;
@@ -26,35 +26,35 @@ body {
   width: 1px;
 }
 
-/* line 25, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 25, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .list-unstyled {
   list-style: none;
   margin: 0;
 }
 
-/* line 30, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 30, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-2-cols {
   list-style: none;
   margin: 0;
 }
 
-/* line 34, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 34, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-2-cols li:nth-child(odd) {
   margin: 0;
 }
 
-/* line 38, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 38, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .thumbnail.round {
   border-radius: 50%;
 }
 
-/* line 41, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 41, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-4-cols {
   list-style: none;
   margin: 0;
 }
 
-/* line 45, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/shared.sass */
+/* line 45, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass */
 .thumbnails-4-cols li:nth-child(4n+1) {
   margin: 0;
 }
@@ -63,24 +63,24 @@ body {
 /* =============================================
   Overrides for bootstrap CSS
  @mixin ============================================*/
-/* line 7, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 7, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 .navbar-inner {
   border: 0;
   padding: 0;
 }
 
 /* Sections (Shared) */
-/* line 13, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 13, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.next-episode, section.about, section.music, section.guests, section.anime, section.games, section.drinks, section.photos, section.charities, section.partners, section.sign-up-form, section.performer {
   margin-bottom: 50px;
 }
 
-/* line 27, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 27, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.next-episode li, section.about li, section.music li, section.guests li, section.anime li, section.games li, section.drinks li, section.photos li, section.charities li, section.partners li, section.sign-up-form li, section.performer li {
   margin-bottom: 10px;
 }
 
-/* line 30, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 30, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.next-episode .heading, section.about .heading, section.music .heading, section.guests .heading, section.anime .heading, section.games .heading, section.drinks .heading, section.photos .heading, section.charities .heading, section.partners .heading, section.sign-up-form .heading, section.performer .heading {
   border-bottom: 1px solid #fff;
   color: #fff;
@@ -88,17 +88,17 @@ section.next-episode .heading, section.about .heading, section.music .heading, s
   padding-bottom: 20px;
 }
 
-/* line 36, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 36, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.next-episode .sub-heading, section.about .sub-heading, section.music .sub-heading, section.guests .sub-heading, section.anime .sub-heading, section.games .sub-heading, section.drinks .sub-heading, section.photos .sub-heading, section.charities .sub-heading, section.partners .sub-heading, section.sign-up-form .sub-heading, section.performer .sub-heading {
   text-align: center;
 }
 
-/* line 39, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 39, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.next-episode .col1, section.about .col1, section.music .col1, section.guests .col1, section.anime .col1, section.games .col1, section.drinks .col1, section.photos .col1, section.charities .col1, section.partners .col1, section.sign-up-form .col1, section.performer .col1 {
   margin: 0;
 }
 
-/* line 43, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 43, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.next-episode .event-details .icon, section.about .event-details .icon, section.music .event-details .icon, section.guests .event-details .icon, section.anime .event-details .icon, section.games .event-details .icon, section.drinks .event-details .icon, section.photos .event-details .icon, section.charities .event-details .icon, section.partners .event-details .icon, section.sign-up-form .event-details .icon, section.performer .event-details .icon {
   color: white;
   font-size: 36px;
@@ -112,68 +112,74 @@ section.next-episode .event-details .icon, section.about .event-details .icon, s
   Common stylings
  @mixin ============================================*/
 /* Section: Hero Banner */
-/* line 55, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 55, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.hero-unit {
   padding-bottom: 0;
 }
 
 /* Section: Social Media */
-/* line 60, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 60, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.social-media {
   margin-bottom: 30px;
   text-align: right;
 }
 
-/* line 64, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 64, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.social-media .link {
   margin-right: 10px;
   text-decoration: none;
 }
 
-/* line 68, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 68, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.social-media .icon {
   color: #fff;
   font-size: 40px;
 }
 
-/* line 72, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 72, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.social-media .icon.facebook:hover {
   color: #3f51b5;
 }
 
-/* line 75, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 75, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.social-media .icon.twitter:hover {
   color: #87ceeb;
 }
 
-/* line 78, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 78, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.social-media .icon.instagram:hover {
   color: #9c27b0;
 }
 
 /* Section: About */
-/* line 84, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 84, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.about .thumbnails-2-cols {
   margin-top: 20px;
 }
 
-/* line 87, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 87, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.about .thumbnails-2-cols .thumbnail {
   border: 0;
 }
 
+/* line 90, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
+section.about .promo-video {
+  text-align: center;
+  margin: 40px 0;
+}
+
 /* Section: Music */
-/* line 94, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 98, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.music .music-list li {
   text-align: center;
 }
 
-/* line 97, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 101, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.music .music-list .music-name {
   margin-bottom: 25px;
 }
 
-/* line 101, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 105, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.music .thumbnail.round {
   border: 0;
   margin: 0 auto;
@@ -181,17 +187,17 @@ section.music .thumbnail.round {
 }
 
 /* Section: Guests */
-/* line 110, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 114, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.guests .guests-list li {
   text-align: center;
 }
 
-/* line 113, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 117, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.guests .guests-list .guests-name {
   margin-bottom: 25px;
 }
 
-/* line 117, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 121, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.guests .thumbnail.round {
   border: 0;
   margin: 0 auto;
@@ -199,44 +205,44 @@ section.guests .thumbnail.round {
 }
 
 /* Section: Anime */
-/* line 125, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 129, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.anime .frm-anime-survey {
   margin-top: 25px;
 }
 
-/* line 129, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 133, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.anime .frm-anime-survey label > span {
   min-height: 18px;
 }
 
 /* Section: Games */
-/* line 135, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 139, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.games .frm-games-survey {
   margin-top: 25px;
 }
 
-/* line 139, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 143, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.games .frm-games-survey label > span {
   min-height: 18px;
 }
 
 /* Section: Drinks */
-/* line 146, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 150, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .specials-list .list-item {
   text-align: center;
 }
 
-/* line 149, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 153, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .specials-list .list-item .specials-photo {
   width: 100%;
 }
 
-/* line 152, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 156, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .beer-list {
   margin-left: 0;
 }
 
-/* line 155, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 159, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .beer-list .heading {
   border: 0;
   margin: 40px 0 20px 0;
@@ -244,14 +250,14 @@ section.drinks .beer-list .heading {
   text-align: center;
 }
 
-/* line 161, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 165, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .draft-list,
 section.drinks .bottled-list {
   margin: 0;
   overflow: hidden;
 }
 
-/* line 166, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 170, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .draft-list .list-item,
 section.drinks .bottled-list .list-item {
   float: left;
@@ -259,7 +265,7 @@ section.drinks .bottled-list .list-item {
   width: 33%;
 }
 
-/* line 171, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 175, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.drinks .draft-list .list-item .draft-photo,
 section.drinks .draft-list .list-item .bottled-photo,
 section.drinks .bottled-list .list-item .draft-photo,
@@ -268,24 +274,24 @@ section.drinks .bottled-list .list-item .bottled-photo {
 }
 
 /* Section: Photos */
-/* line 178, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 182, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.photos .photos-list {
   overflow: hidden;
 }
 
-/* line 181, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 185, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.photos .photos-list .list-item {
   max-height: 16vh;
   overflow: hidden;
 }
 
-/* line 185, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 189, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.photos .photos-list .list-item .photo {
   width: 25vh;
 }
 
 /* Section: Charities */
-/* line 193, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+/* line 197, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
 section.charities .charity-list .list-item .charity-photo {
   width: 25vh;
 }
@@ -294,14 +300,14 @@ section.charities .charity-list .list-item .charity-photo {
   Media queries
  @mixin ============================================*/
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 201, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 205, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .navbar-fixed-left .container {
     width: 104px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 206, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 210, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .navbar-fixed-left {
     margin-right: -20px;
     margin-left: -20px;
@@ -309,32 +315,32 @@ section.charities .charity-list .list-item .charity-photo {
 }
 
 @media (max-width: 979px) {
-  /* line 212, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 216, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-main-content {
     margin-top: 40px;
   }
-  /* line 215, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 219, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .navbar {
     position: fixed;
     width: 100%;
   }
-  /* line 221, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 225, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .navbar .nav > li .icon {
     color: white;
     font-size: 30px;
     margin-right: 10px;
   }
-  /* line 225, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 229, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .navbar .nav > li .title {
     display: inline-block;
     font-size: 2.8vh;
     margin: 0;
   }
-  /* line 231, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 235, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   section.hero-unit {
     display: none;
   }
-  /* line 239, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 243, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   section.drinks .draft-list .list-item .draft-photo,
   section.drinks .draft-list .list-item .bottled-photo,
   section.drinks .bottled-list .list-item .draft-photo,
@@ -344,70 +350,70 @@ section.charities .charity-list .list-item .charity-photo {
 }
 
 @media (min-width: 980px) {
-  /* line 245, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 249, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   body {
     padding: 0;
   }
-  /* line 248, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 252, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .hero-unit {
     background-color: #000;
     display: block;
   }
   /* Navbar */
-  /* line 253, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 257, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar {
     margin: 0;
   }
-  /* line 256, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 260, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar {
     height: 100vh;
     overflow: auto;
     position: fixed;
   }
-  /* line 261, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 265, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar .nav {
     margin: 0;
     max-width: 110px;
   }
-  /* line 265, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 269, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar .nav > li {
     color: #fff;
     float: none;
     padding: 15px;
     text-align: center;
   }
-  /* line 271, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 275, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar .nav > li.active {
     background-color: #111;
   }
-  /* line 274, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 278, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar .nav > li > a {
     color: #fff;
     padding: 0;
   }
-  /* line 278, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 282, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar .nav > li .icon {
     color: white;
     font-size: 30px;
   }
-  /* line 281, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 285, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .container-navbar .navbar .nav > li .title {
     font-size: 12px;
     line-height: 20px;
     margin: 10px 0 0 0;
     text-transform: uppercase;
   }
-  /* line 291, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 295, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   section.drinks .specials-list .list-item .specials-photo {
     width: 40%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 296, /Users/yuini/workspace/barcon/boozeanimerock.github.io/sass/main.sass */
+  /* line 300, //GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/main.sass */
   .navbar-fixed-left .container {
     width: 170px;
   }
 }
 
-/*# sourceMappingURL=../css/main.map */
+/*# sourceMappingURL=Z:/Projects/_Barcon/Website/boozeanimerock.github.io/css/main.map */
