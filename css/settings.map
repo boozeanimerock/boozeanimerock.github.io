@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "//GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/settings.css",
+	"file": "../sass/settings.css",
 	"sources": [
-		"//GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/settings.sass"
+		"../sass/settings.sass"
 	],
 	"sourcesContent": [
 		"$font-type: \"Montserrat\", sans-serif;\n$social-media-icon-color: #fff;\n$navbar-item-color: #fff;\n$navbar-item-size: 12px;\n$section-heading-color: #fff;\n"

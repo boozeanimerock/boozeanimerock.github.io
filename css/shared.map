@@ -1,9 +1,9 @@
 {
 	"version": 3,
-	"file": "//GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.css",
+	"file": "../sass/shared.css",
 	"sources": [
-		"//GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/shared.sass",
-		"//GRATOOSYN/GratooSyn/Projects/_Barcon/Website/boozeanimerock.github.io/sass/settings.sass"
+		"../sass/shared.sass",
+		"../sass/settings.sass"
 	],
 	"sourcesContent": [
 		"@import \"settings\";\n\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n\tfont-family: $font-type; }\n\nbody {\n\tbackground-color: #000;\n\tbox-sizing: border-box;\n\tcolor: #757575; }\n\n.a11y-text {\n\theight: 1px;\n\tleft: -10000px;\n\toverflow: hidden;\n\tposition: absolute;\n\ttop: auto;\n\twidth: 1px; }\n\n.list-unstyled {\n\tlist-style: none;\n\tmargin: 0; }\n\n// To be used in ul/ol element\n.thumbnails-2-cols {\n\tlist-style: none;\n\tmargin: 0;\n\n\tli:nth-child(odd) {\n\t\tmargin: 0; } }\n\n.thumbnail {\n\t&.round {\n\t\tborder-radius: 50%; } }\n\n.thumbnails-4-cols {\n\tlist-style: none;\n\tmargin: 0;\n\n\tli:nth-child(4n+1) {\n\t\tmargin: 0; } }\n\n/* Mixins */\n@mixin icon($color, $size) {\n  color: $color;\n  font-size: $size; }\n",
